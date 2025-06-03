@@ -194,25 +194,17 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="bg-black text-white py-8 px-4 max-h-40">
         <div className="max-w-7xl  mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Certified B Corporation Logo */}
           <div className="flex items-center space-x-3">
-            {/* Placeholder for B Corp logo - ideally an SVG or Image component */}
             <div className="w-10 h-10 rounded-full flex items-center justify-center">
-              {/* <span className="font-bold text-gray-800 text-xl">B</span> */}
               <img
                 src="https://www.intrepidtravel.com/files/images/logos/b-corp-logo.svg"
                 alt=""
               />
             </div>
-            {/* <span className="text-sm">
-              Certified <br /> Corporation
-            </span> */}
           </div>
 
-          {/* Social Media Icons */}
           <div className="flex space-x-6 text-2xl">
             <a
               href="#"
