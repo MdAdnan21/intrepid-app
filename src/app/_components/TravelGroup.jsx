@@ -7,8 +7,6 @@ export default function TravelGroup() {
         {/* Left Section: Globe Icon */}
         <div className="flex-shrink-0">
           <div className="relative w-[200px] h-[200px] border-2 border-gray-800 rounded-full bg-gray-200 flex justify-center items-center overflow-hidden">
-            {/* Globe lines - approximated with Tailwind classes for simplicity,
-                or you might use a more complex SVG for exact replication */}
             <div
               className="absolute inset-0 rounded-full border-2 border-gray-800 box-border opacity-50
                           bg-repeat"
